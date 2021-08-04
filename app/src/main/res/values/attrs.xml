@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TabBehaviour">
+        <attr name="anchorTabPoint" format="dimension" />
+        <attr name="defaultTabState" format="enum">
+            <enum name="stateTabAnchorPoint" value="3" />
+            <enum name="stateTabExpanded" value="4" />
+            <enum name="stateTabCollapsed" value="5" />
+            <enum name="stateTabHidden" value="6" />
+        </attr>
+    </declare-styleable>
+</resources>
